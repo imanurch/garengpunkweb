@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -10,6 +11,9 @@ module.exports = {
       addingcolor: "#9AC2C9",
       lightgreycolor: "#F5F5F5",
       lightcolor: "#FFF",
+    },
+    fontFamily: {
+      "space-grotesk": "Space Grotesk",
     },
     fontSize: {
       // headline: "4.325rem", //70

@@ -6,6 +6,7 @@
     <title>Home</title>
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="../style/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/space-grotesk" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER -->
@@ -29,16 +30,16 @@
     <div class="space-y-index">
       <!-- HEADLINE -->
       <section>
-        <div class="heading flex mx-xmaincontent text-primarycolor items-center mt-8">
+        <div class="heading flex mx-xmaincontent text-primarycolor items-center justify-center mt-8">
           <div class="flex-col">
             <img src="../asset/team.png" alt="" class="w-component-sm" />
             <img src="../asset/learn.png" alt="" class="w-component-sm" />
             <img src="../asset/success.png" alt="" class="w-component-sm" />
           </div>
           <div class="space-y-5 ps-5">
-            <h1 class="text-headline">GARENG PUNK</h1>
+            <h1 class="text-headline font-space-grotesk">GARENG PUNK</h1>
             <p class="text-text1">Part of UNY Robotics team</p>
-            <button class="text-btn2 border rounded border-highlightcolor text-highlightcolor px-8 py-3">Know More</button>
+            <button class="text-btn2 border rounded border-highlightcolor text-highlightcolor hover:text-lightcolor hover:bg-highlightcolor hover:drop-shadow-md px-8 py-3">Know More</button>
           </div>
           <div>
             <img src="../asset/robot.png" alt="" class="max-w-logo-robot ms-10" />
@@ -53,7 +54,7 @@
           <div class="flex space-x-14 justify-center" id="about">
             <img src="../asset/logo.png" alt="" class="w-logo-lg" />
             <div class="space-y-category">
-              <h3 class="text-title2">About Us</h3>
+              <h3 class="text-title2 font-space-grotesk">About Us</h3>
               <p class="text-text2 max-w-paragraf-about text-justify">
                 Gareng Punk merupakan salah satu tim dalam kontingen Kontes Robot Indonesia (KRI) Robotika UNY di bawah naungan UKM Rekayasa Teknologi UNY. Gareng Punk bergerak dalam divisi Kontes
                 Robot SAR Indonesia (KRSRI) dimana robot berfokus pada misi pencarian dan penyelamatan korban bencana alam pada berbagai medan.
@@ -62,7 +63,7 @@
           </div>
           <!-- DIVISION -->
           <div>
-            <h3 class="text-title2 text-center mb-subtitle pb-11">Division / Roles</h3>
+            <h3 class="text-title2 font-space-grotesk text-center mb-subtitle pb-11">Division / Roles</h3>
             <div class="grid grid-cols-4 space-x-5">
               <div class="relative">
                 <div class="absolute z-10 left-28 -top-12">
@@ -124,7 +125,7 @@
           </div>
           <!-- GALLERY -->
           <div class="text-center">
-            <h3 class="text-title2 mb-subtitle">Gallery</h3>
+            <h3 class="text-title2 font-space-grotesk mb-subtitle">Gallery</h3>
             <div class="flex space-x-gallery justify-center">
               <!-- <img src="../asset/arrowLeft.png" alt=""/> -->
               <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
@@ -132,11 +133,13 @@
               <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
               <!-- <img src="../asset/arrowRight.png" alt="" /> -->
             </div>
-            <button class="border rounded border-highlightcolor text-highlightcolor px-xbtn py-ybtn text-btn2 mt-button"><a href="gallery.html">Show More</a></button>
+            <button class="border rounded border-highlightcolor text-highlightcolor hover:text-lightcolor hover:bg-highlightcolor hover:drop-shadow-md px-xbtn py-ybtn text-btn2 mt-button">
+              <a href="gallery.html">Show More</a>
+            </button>
           </div>
           <!-- ACHIEVEMENT -->
           <div class="text-center">
-            <h3 class="text-title2 mb-subtitle">Last Achievement</h3>
+            <h3 class="text-title2 font-space-grotesk mb-subtitle">Last Achievement</h3>
             <div class="grid grid-cols-3 space-x-gallery mx-32">
               <div class="text-center rounded px-xaward py-yaward border">
                 <div class="flex justify-center pb-4">
@@ -175,12 +178,14 @@
                 </p>
               </div>
             </div>
-            <button class="border rounded border-highlightcolor text-highlightcolor px-xbtn py-ybtn text-btn2 mt-button"><a href="gallery.html">Show More</a></button>
+            <button class="border rounded border-highlightcolor text-highlightcolor hover:text-lightcolor hover:bg-highlightcolor hover:drop-shadow-md px-xbtn py-ybtn text-btn2 mt-button">
+              <a href="gallery.html">Show More</a>
+            </button>
           </div>
           <!-- QnA -->
           <div class="grid grid-cols-2 space-x-16">
             <div>
-              <h3 class="text-title2 mb-subtitle">Question & Answer</h3>
+              <h3 class="text-title2 font-space-grotesk mb-subtitle">Question & Answer</h3>
               <div class="flex-col space-y-4">
                 <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-box-qna">
                   <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
@@ -215,13 +220,13 @@
                   </div>
                   <div>
                     <label for="" class="text-text3 font-medium mb-2.5">Email</label>
-                    <input type="text" class="border border-primarycolor rounded w-full h-8 p-3 mt-2.5" />
+                    <input type="email" class="border border-primarycolor rounded w-full h-8 p-3 mt-2.5" />
                   </div>
                 </div>
                 <label for="" class="text-text3 font-medium mb-2.5">Pertanyaan</label>
                 <textarea name="" id="" cols="30" rows="10" class="border border-primarycolor rounded w-full h-32 p-3 mt-2.5"></textarea>
                 <div class="flex justify-end">
-                  <button class="text-btn2 text-lightcolor bg-highlightcolor rounded py-2 px-8 mt-6">Send</button>
+                  <button class="text-btn2 text-lightcolor bg-highlightcolor hover:drop-shadow-md rounded py-2 px-8 mt-6">Send</button>
                 </div>
               </form>
             </div>
@@ -255,6 +260,16 @@
               <img src="../asset/location.png" alt="" class="w-icon-sm2" />
               <p>Aula Robotika Fakultas Teknik UNY</p>
             </div>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2331.1866525540972!2d110.38546265068196!3d-7.771943713778248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59b6c270ec03%3A0x78c699bae0c45583!2sRobotika%20UNY!5e0!3m2!1sid!2sid!4v1702792604615!5m2!1sid!2sid"
+              width="100%"
+              height="175px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
