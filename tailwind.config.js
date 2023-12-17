@@ -114,6 +114,9 @@ module.exports = {
       DEFAULT: "0.5rem",
     },
     extend: {
+      backgroundImage: {
+        pattern: "url('asset/background.png')",
+      },
       width: {
         "logo-sm": "2.813rem", //45
         "logo-lg": "20.938rem", //335
@@ -125,7 +128,6 @@ module.exports = {
         "icon-md": "2.625rem", //42
         "component-sm": "2.625rem", //42
         "component-md": "5.125rem", //82
-        "box-qna": "38rem", //634
       },
       maxWidth: {
         "paragraf-about": "34.75rem", //556
