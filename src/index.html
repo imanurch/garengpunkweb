@@ -9,135 +9,255 @@
   </head>
   <body>
     <!-- HEADER -->
-    <section class="header">
+    <section>
       <div class="flex justify-between text-primarycolor mt-6 mx-28">
         <div class="flex">
           <img src="../asset/logo.png" alt="" class="w-logo-sm" />
-          <h6 class="self-center ps-5 text-logoname">GARENG PUNK</h6>
+          <h6 class="self-center ps-2 text-logoname">GARENG PUNK</h6>
         </div>
         <div class="self-center list-none flex text-text2 space-x-navbar">
           <li class="text-activepage underline"><a href="index.html">Home</a></li>
-          <li><a href="index.html">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="achievement.html">Achievement</a></li>
-          <li><a href="index.html">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </div>
       </div>
     </section>
 
-    <!-- HEADLINE -->
-    <section class="headline">
-      <div class="heading flex place-content-center mx-xmaincontent text-primarycolor">
-        <div class="flex-col">
-          <img src="../asset/team.png" alt="" class="w-component-sm" />
-          <img src="../asset/learn.png" alt="" class="w-component-sm" />
-          <img src="../asset/success.png" alt="" class="w-component-sm" />
+    <div class="space-y-index">
+      <!-- HEADLINE -->
+      <section>
+        <div class="heading flex mx-xmaincontent text-primarycolor items-center mt-8">
+          <div class="flex-col">
+            <img src="../asset/team.png" alt="" class="w-component-sm" />
+            <img src="../asset/learn.png" alt="" class="w-component-sm" />
+            <img src="../asset/success.png" alt="" class="w-component-sm" />
+          </div>
+          <div class="space-y-5 ps-5">
+            <h1 class="text-headline">GARENG PUNK</h1>
+            <p class="text-text1">Part of UNY Robotics team</p>
+            <button class="text-btn2 border rounded border-highlightcolor text-highlightcolor px-8 py-3">Know More</button>
+          </div>
+          <div>
+            <img src="../asset/robot.png" alt="" class="max-w-logo-robot ms-10" />
+          </div>
         </div>
-        <div class="space-y-5">
-          <h1 class="text-headline">GARENG PUNK</h1>
-          <p class="text-text1">Part of UNY Robotics team</p>
-          <button class="text-btn2 border rounded border-highlightcolor text-highlightcolor px-8 py-3">Know More</button>
-        </div>
-        <div>
-          <img src="../asset/robot.png" alt="" class="w-logo-robot ms-10" />
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="content">
-      <div class="mx-xmaincontent space-y-maincontent text-primarycolor">
-        <!-- ABOUT -->
-        <div class="flex space-x-14 justify-center">
-          <img src="../asset/logo.png" alt="" class="w-logo-lg" />
-          <div class="space-y-category">
-            <h3 class="text-title2">About Us</h3>
-            <p class="text-text2 max-w-paragraf-about">
-              Gareng Punk merupakan salah satu tim dalam kontingen Kontes Robot Indonesia (KRI) Robotika UNY di bawah naungan UKM Rekayasa Teknologi UNY. Gareng Punk bergerak dalam divisi Kontes Robot
-              SAR Indonesia (KRSRI) dimana robot berfokus pada misi pencarian dan penyelamatan korban bencana alam pada berbagai medan.
-            </p>
-          </div>
-        </div>
-        <!-- DIVISION -->
-        <div>
-          <h3 class="text-title2 text-center mb-subtitle">Division / Roles</h3>
-          <div class="flex space-x-5">
-            <div>
-              <div>
-                <img src="../asset/manager.png" alt="" class="w-component-md" />
-              </div>
-              <div class="rounded">
-                <div class="flex pt-category">
-                  <h4 class="text-title3 underline me-5">01</h4>
-                  <div>
-                    <h4 class="text-title3">Manager</h4>
-                    <p class="text-text2">Mengelola administrasi, keuangan, dokumentasi, publikasi, dsb. (non teknis)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="../asset/program.png" alt="" class="w-component-md" />
-              </div>
-              <div class="rounded drop-shadow-def">
-                <div class="flex pt-category">
-                  <h4 class="text-title3 underline me-5">02</h4>
-                  <div>
-                    <h4 class="text-title3">Program</h4>
-                    <p class="text-text2">Mengelola administrasi, keuangan, dokumentasi, publikasi, dsb. (non teknis)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="../asset/mekanik.png" alt="" class="w-component-md" />
-              </div>
-              <div class="rounded drop-shadow-def">
-                <div class="flex pt-category">
-                  <h4 class="text-title3 underline me-5">03</h4>
-                  <div>
-                    <h4 class="text-title3">Mekanik</h4>
-                    <p class="text-text2">Mengelola administrasi, keuangan, dokumentasi, publikasi, dsb. (non teknis)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="../asset/elektronik.png" alt="" class="w-component-md" />
-              </div>
-              <div class="rounded drop-shadow-def">
-                <div class="flex pt-category">
-                  <h4 class="text-title3 underline me-5">04</h4>
-                  <div>
-                    <h4 class="text-title3">Elektronik</h4>
-                    <p class="text-text2">Mengelola administrasi, keuangan, dokumentasi, publikasi, dsb. (non teknis)</p>
-                  </div>
-                </div>
-              </div>
+      <!-- CONTENT -->
+      <section>
+        <div class="mx-xmaincontent space-y-maincontent text-primarycolor">
+          <!-- ABOUT -->
+          <div class="flex space-x-14 justify-center" id="about">
+            <img src="../asset/logo.png" alt="" class="w-logo-lg" />
+            <div class="space-y-category">
+              <h3 class="text-title2">About Us</h3>
+              <p class="text-text2 max-w-paragraf-about text-justify">
+                Gareng Punk merupakan salah satu tim dalam kontingen Kontes Robot Indonesia (KRI) Robotika UNY di bawah naungan UKM Rekayasa Teknologi UNY. Gareng Punk bergerak dalam divisi Kontes
+                Robot SAR Indonesia (KRSRI) dimana robot berfokus pada misi pencarian dan penyelamatan korban bencana alam pada berbagai medan.
+              </p>
             </div>
           </div>
-        </div>
-        <!-- GALLERY -->
-        <div class="text-center">
-          <h3 class="text-title2 mb-subtitle">Gallery</h3>
-          <div class="flex space-x-gallery justify-center">
-            <!-- <img src="../asset/arrowLeft.png" alt=""/> -->
-            <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
-            <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
-            <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
-            <!-- <img src="../asset/arrowRight.png" alt="" /> -->
+          <!-- DIVISION -->
+          <div>
+            <h3 class="text-title2 text-center mb-subtitle pb-11">Division / Roles</h3>
+            <div class="grid grid-cols-4 space-x-5">
+              <div class="relative">
+                <div class="absolute z-10 left-28 -top-12">
+                  <img src="../asset/manager.png" alt="" class="w-component-md" />
+                </div>
+                <div class="rounded bg-lightcolor drop-shadow-md px-6 py-9 h-48">
+                  <div class="flex pt-category">
+                    <h4 class="text-title3 underline me-5">01</h4>
+                    <div>
+                      <h4 class="text-title3">Manager</h4>
+                      <p class="text-text2">Mengelola administrasi, keuangan, dokumentasi, publikasi, dsb. (non teknis)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="absolute z-10 left-28 -top-12">
+                  <img src="../asset/program.png" alt="" class="w-component-md" />
+                </div>
+                <div class="rounded bg-lightcolor drop-shadow-md px-6 py-9 h-48">
+                  <div class="flex pt-category">
+                    <h4 class="text-title3 underline me-5">02</h4>
+                    <div>
+                      <h4 class="text-title3">Program</h4>
+                      <p class="text-text2">Membuat program untuk menjalankan robot.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="absolute z-10 left-28 -top-12">
+                  <img src="../asset/mekanik.png" alt="" class="w-component-md" />
+                </div>
+                <div class="rounded bg-lightcolor drop-shadow-md px-6 py-9 h-48">
+                  <div class="flex pt-category">
+                    <h4 class="text-title3 underline me-5">03</h4>
+                    <div>
+                      <h4 class="text-title3">Mekanik</h4>
+                      <p class="text-text2">Merancang desain dan pembuatan fisik body robot.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="absolute z-10 left-28 -top-12">
+                  <img src="../asset/elektronik.png" alt="" class="w-component-md" />
+                </div>
+                <div class="rounded bg-lightcolor drop-shadow-md px-6 py-9 h-48">
+                  <div class="flex pt-category">
+                    <h4 class="text-title3 underline me-5">04</h4>
+                    <div>
+                      <h4 class="text-title3">Elektronik</h4>
+                      <p class="text-text2">Merancang desain dan perakitan komponen elektronik pada robot.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <button class="border rounded border-highlightcolor text-highlightcolor px-xbtn py-ybtn text-btn2 mt-button">Show More</button>
+          <!-- GALLERY -->
+          <div class="text-center">
+            <h3 class="text-title2 mb-subtitle">Gallery</h3>
+            <div class="flex space-x-gallery justify-center">
+              <!-- <img src="../asset/arrowLeft.png" alt=""/> -->
+              <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
+              <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
+              <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
+              <!-- <img src="../asset/arrowRight.png" alt="" /> -->
+            </div>
+            <button class="border rounded border-highlightcolor text-highlightcolor px-xbtn py-ybtn text-btn2 mt-button"><a href="gallery.html">Show More</a></button>
+          </div>
+          <!-- ACHIEVEMENT -->
+          <div class="text-center">
+            <h3 class="text-title2 mb-subtitle">Last Achievement</h3>
+            <div class="grid grid-cols-3 space-x-gallery mx-32">
+              <div class="text-center rounded px-xaward py-yaward border">
+                <div class="flex justify-center pb-4">
+                  <h2 class="text-num">4</h2>
+                  <h5 class="text-title3">th</h5>
+                </div>
+                <h4 class="text-title3 pb-1">Juara Harapan</h4>
+                <p class="">
+                  Kontes Robot Indonesia <br />
+                  Div Kontes Robot SAR Indonesia <br />
+                  Tingkat Wilayah I tahun 2019
+                </p>
+              </div>
+              <div class="text-center rounded px-xaward py-yaward border">
+                <div class="flex justify-center pb-4">
+                  <h2 class="text-num">4</h2>
+                  <h5 class="text-title3">th</h5>
+                </div>
+                <h4 class="text-title3 pb-1">Juara Harapan</h4>
+                <p class="">
+                  Kontes Robot Indonesia <br />
+                  Div Kontes Robot SAR Indonesia <br />
+                  Tingkat Wilayah I tahun 2019
+                </p>
+              </div>
+              <div class="text-center rounded px-xaward py-yaward border">
+                <div class="flex justify-center pb-4">
+                  <h2 class="text-num">4</h2>
+                  <h5 class="text-title3">th</h5>
+                </div>
+                <h4 class="text-title3 pb-1">Juara Harapan</h4>
+                <p class="">
+                  Kontes Robot Indonesia <br />
+                  Div Kontes Robot SAR Indonesia <br />
+                  Tingkat Wilayah I tahun 2019
+                </p>
+              </div>
+            </div>
+            <button class="border rounded border-highlightcolor text-highlightcolor px-xbtn py-ybtn text-btn2 mt-button"><a href="gallery.html">Show More</a></button>
+          </div>
+          <!-- QnA -->
+          <div class="grid grid-cols-2 space-x-16">
+            <div>
+              <h3 class="text-title2 mb-subtitle">Question & Answer</h3>
+              <div class="flex-col space-y-4">
+                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-box-qna">
+                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
+                  <p class="text-text2">Gimana sih caranya jadi anggota tim Gareng Punk?</p>
+                </div>
+                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-box-qna">
+                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
+                  <p class="text-text2">Dimana basecamp riset tim Gareng Punk ?</p>
+                </div>
+                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-box-qna">
+                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
+                  <p class="text-text2">Apa sih benefit jadi anggota tim Gareng Punk ?</p>
+                </div>
+                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-box-qna">
+                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
+                  <p class="text-text2">Apa aja syarat jadi anggota tim Gareng Punk ?</p>
+                </div>
+                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-box-qna">
+                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
+                  <p class="text-text2">Apa aja perlombaan yang diikuti tim Gareng Punk ?</p>
+                </div>
+              </div>
+            </div>
+            <div class="bg-lightcolor drop-shadow-md rounded py-10 px-11">
+              <h4 class="text-title3">Kirim Pertanyaan</h4>
+              <p class="text-text3">Memiliki pertanyaan yang belum terjawab? Kirim pertanyaanmu disini ya!!</p>
+              <form>
+                <div class="grid grid-cols-2 space-x-4 mt-5 mb-3.5">
+                  <div>
+                    <label for="" class="text-text3 font-medium">Nama</label>
+                    <input type="text" class="border border-primarycolor rounded w-full h-8 p-3 mt-2.5" />
+                  </div>
+                  <div>
+                    <label for="" class="text-text3 font-medium mb-2.5">Email</label>
+                    <input type="text" class="border border-primarycolor rounded w-full h-8 p-3 mt-2.5" />
+                  </div>
+                </div>
+                <label for="" class="text-text3 font-medium mb-2.5">Pertanyaan</label>
+                <textarea name="" id="" cols="30" rows="10" class="border border-primarycolor rounded w-full h-32 p-3 mt-2.5"></textarea>
+                <div class="flex justify-end">
+                  <button class="text-btn2 text-lightcolor bg-highlightcolor rounded py-2 px-8 mt-6">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-        <!-- ACHIEVEMENT -->
-        <div class="text-center">
-          <h3 class="text-title2 mb-subtitle">Last Achievement</h3>
-          <div class="flex space-x-gallery justify-center"></div>
+      </section>
+      <!-- FOOTER -->
+      <section class="bg-primarycolor">
+        <div class="grid grid-cols-3 text-lightcolor h-footer place-content-center mx-40" id="contact">
+          <div>
+            <h3 class="text-title2 mb-2.5">Let's <br /><span class="text-addingcolor">be A Part of Us</span></h3>
+            <p>Gareng Punk 2023</p>
+          </div>
+          <div>
+            <p class="opacity-50 mb-2.5">Contact</p>
+            <div class="flex space-x-3 text-text3 items-center">
+              <img src="../asset/email.png" alt="" class="w-icon-sm2" />
+              <a href="">garengpunk@student.uny.ac.id</a>
+            </div>
+            <div class="flex space-x-3 text-text3 items-center">
+              <img src="../asset/instagram.png" alt="" class="w-icon-sm2" />
+              <a href="https://www.instagram.com/garengpunk_uny">garengpunk_uny</a>
+            </div>
+            <div class="flex space-x-3 text-text3 items-center">
+              <img src="../asset/whatsapp.png" alt="" class="w-icon-sm2" />
+              <a href="https://wa.me/081325385045">081325336252 (Admin)</a>
+            </div>
+          </div>
+          <div>
+            <div class="flex space-x-3 text-text3 items-center mb-2.5">
+              <img src="../asset/location.png" alt="" class="w-icon-sm2" />
+              <p>Aula Robotika Fakultas Teknik UNY</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>

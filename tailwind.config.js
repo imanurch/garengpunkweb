@@ -98,25 +98,37 @@ module.exports = {
           fontWeight: "700",
         },
       ],
+      num: [
+        "4.063rem",
+        {
+          fontWeight: "700",
+          lineHeight: "2rem",
+        },
+      ],
     },
     borderRadius: {
       DEFAULT: "0.5rem",
     },
     extend: {
       width: {
-        "logo-robot": "46.25rem", //740
         "logo-sm": "2.813rem", //45
         "logo-lg": "20.938rem", //335
         "photo-main": "24.188rem", //387
         "photo-grid": "22.125rem", //354
         "photo-self": "22.5rem", //360
         "icon-sm": "1.25rem", //23
+        "icon-sm2": "1.68rem", //27
         "icon-md": "2.625rem", //42
         "component-sm": "2.625rem", //42
         "component-md": "5.125rem", //82
+        "box-qna": "38rem", //634
       },
       maxWidth: {
         "paragraf-about": "34.75rem", //556
+        "logo-robot": "31.25rem", //740
+      },
+      height: {
+        footer: "19.625rem", //314
       },
       space: {
         navbar: "1.875rem",
@@ -125,11 +137,12 @@ module.exports = {
         category: "1.875rem",
         gallery: "1.438rem",
         maincontent: "6.938rem",
+        index: "7.625rem",
       },
       margin: {
         ycontent: "4.063rem",
         xcontent: "9rem",
-        xmaincontent: "3.25rem",
+        xmaincontent: "5rem",
         dropdown: "2.5rem",
         subtitle: "3.75rem",
         button: "2.188rem",
@@ -139,12 +152,14 @@ module.exports = {
         xfooter: "7rem",
         ydropdown: "0.5rem",
         xdropdown: "0.938rem",
-        category: "3.75rem",
+        category: "1.25rem",
         xbtn: "2.5rem",
         ybtn: "1rem",
+        xaward: "1.563rem",
+        yaward: "2.313rem",
       },
-      dropShadow: {
-        sm: "4px 8px 18px 0px rgba(41, 51, 92, 0.20)",
+      boxShadow: {
+        // "3xl": "4px 8px 18px 0px rgba(41, 51, 92, 0.20)",
       },
     },
   },
