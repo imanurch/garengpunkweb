@@ -106,7 +106,7 @@ module.exports = {
         "4.063rem",
         {
           fontWeight: "700",
-          lineHeight: "2rem",
+          lineHeight: "3.75rem",
         },
       ],
       membername: [
