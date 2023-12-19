@@ -39,7 +39,9 @@
           <div class="space-y-5 ps-5">
             <h1 class="text-headline font-space-grotesk">GARENG PUNK</h1>
             <p class="text-text1">Part of UNY Robotics team</p>
-            <button class="text-btn2 border rounded border-highlightcolor text-highlightcolor hover:text-lightcolor hover:bg-highlightcolor hover:drop-shadow-md px-8 py-3">Know More</button>
+            <button class="text-btn2 border rounded border-highlightcolor text-highlightcolor hover:text-lightcolor hover:bg-highlightcolor hover:drop-shadow-md px-8 py-3">
+              <a href="#about">Know More</a>
+            </button>
           </div>
           <div>
             <img src="../asset/robot.png" alt="" class="max-w-logo-robot ms-10" />
@@ -126,12 +128,14 @@
           <!-- GALLERY -->
           <div class="text-center">
             <h3 class="text-title2 font-space-grotesk mb-subtitle">Gallery</h3>
-            <div class="grid gap-5 grid-cols-3">
-              <!-- <img src="../asset/arrowLeft.png" alt=""/> -->
-              <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
-              <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
-              <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
-              <!-- <img src="../asset/arrowRight.png" alt="" /> -->
+            <div class="flex">
+              <img src="../asset/arrowLeft.png" alt="" style="width: 42px; height: 42px" />
+              <div class="grid gap-5 grid-cols-3 px-2">
+                <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
+                <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
+                <img src="../asset/foto.JPG" alt="" class="w-photo-main rounded" />
+              </div>
+              <img src="../asset/arrowRight.png" alt="" style="width: 42px; height: 42px" />
             </div>
             <button class="border rounded border-highlightcolor text-highlightcolor hover:text-lightcolor hover:bg-highlightcolor hover:drop-shadow-md px-xbtn py-ybtn text-btn2 mt-button">
               <a href="gallery.html">Show More</a>
@@ -187,34 +191,61 @@
             <div>
               <h3 class="text-title2 font-space-grotesk mb-subtitle">Question & Answer</h3>
               <div class="flex-col space-y-4">
-                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-full">
-                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
-                  <p class="text-text2">Gimana sih caranya jadi anggota tim Gareng Punk?</p>
+                <div class="w-full">
+                  <details class="border open:border-primarycolor open:bg-white open:shadow-lg px-8 py-4 rounded">
+                    <summary class="text-text2 flex space-x-5 self-center">
+                      <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2 cursor-pointer" />
+                      <p>Gimana sih caranya jadi anggota tim Gareng Punk ?</p>
+                    </summary>
+                    <div class="mt-3 text-sm leading-6">
+                      <p>Kamu bisa mendaftar pada saat Open Recruitment UKM Rekayasa Teknologi yang dibuka setiap tahunnya.</p>
+                    </div>
+                  </details>
                 </div>
-                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-full">
-                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
-                  <p class="text-text2">Dimana basecamp riset tim Gareng Punk ?</p>
+                <div class="w-full">
+                  <details class="border open:border-primarycolor open:bg-white open:shadow-lg px-8 py-4 rounded">
+                    <summary class="text-text2 flex space-x-5 self-center">
+                      <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2 cursor-pointer" />
+                      <p>Dimana basecamp riset tim Gareng Punk ?</p>
+                    </summary>
+                    <div class="mt-3 text-sm leading-6">
+                      <p>Basecamp riset tim ada di Aula Robotika, FT UNY.</p>
+                    </div>
+                  </details>
                 </div>
-                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-full">
-                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
-                  <p class="text-text2">Apa sih benefit jadi anggota tim Gareng Punk ?</p>
+                <div class="w-full">
+                  <details class="border open:border-primarycolor open:bg-white open:shadow-lg px-8 py-4 rounded">
+                    <summary class="text-text2 flex space-x-5 self-center">
+                      <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2 cursor-pointer" />
+                      <p>Apa sih benefit jadi anggota tim Gareng Punk ?</p>
+                    </summary>
+                    <div class="mt-3 text-sm leading-6">
+                      <p>Banyak dong, mulai dari basecamp 24/7, wifi gratis, relasi, ilmu, hingga prestasi di tingkat nasional.</p>
+                    </div>
+                  </details>
                 </div>
-                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-full">
-                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
-                  <p class="text-text2">Apa aja syarat jadi anggota tim Gareng Punk ?</p>
+                <div class="w-full">
+                  <details class="border open:border-primarycolor open:bg-white open:shadow-lg px-8 py-4 rounded">
+                    <summary class="text-text2 flex space-x-5 self-center">
+                      <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2 cursor-pointer" />
+                      <p>Apa aja syarat jadi anggota tim Gareng Punk ?</p>
+                    </summary>
+                    <div class="mt-3 text-sm leading-6">
+                      <p>Syaratnya gampang banget kok. Selama kamu merupakan mahasiswa UNY yang memiliki komitmen dan niat belajar tinggi, kesempatanmu untuk menjadi bagian tim sangat besar.</p>
+                    </div>
+                  </details>
                 </div>
-                <div class="flex px-8 py-4 border border-primarycolor rounded space-x-5 items-center w-full">
-                  <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2" />
-                  <p class="text-text2">Apa aja perlombaan yang diikuti tim Gareng Punk ?</p>
+                <div class="w-full">
+                  <details class="border open:border-primarycolor open:bg-white open:shadow-lg px-8 py-4 rounded">
+                    <summary class="text-text2 flex space-x-5 self-center">
+                      <img src="../asset/arrowRight.png" alt="" class="w-icon-sm2 cursor-pointer" />
+                      <p>Apa aja perlombaan yang diikuti tim Gareng Punk ?</p>
+                    </summary>
+                    <div class="mt-3 text-sm leading-6">
+                      <p>Gareng Punk mengikuti kompetisi tahunan yang diadakan Puspresnas yaitu Kontes Robot Indonesia</p>
+                    </div>
+                  </details>
                 </div>
-              </div>
-              <div class="w-full">
-                <details class="border open:border-primarycolor open:bg-white open:shadow-lg p-6 rounded">
-                  <summary class="text-text2 select-none">Apa aja perlombaan yang diikuti tim Gareng Punk ?</summary>
-                  <div class="mt-3 text-sm leading-6">
-                    <p>Gareng Punk mengikuti kompetisi tahunan yang diadakan Puspresnas yaitu Kontes Robot Indonesia</p>
-                  </div>
-                </details>
               </div>
             </div>
             <!-- SEND MESSAGE -->

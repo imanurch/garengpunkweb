@@ -741,6 +741,10 @@ html {
   margin-top: 2.188rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -783,6 +787,18 @@ html {
 
 .h-footer {
   height: 19.625rem;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-6 {
+  height: 1.5rem;
 }
 
 .max-h-full {
@@ -853,6 +869,18 @@ html {
   width: 50%;
 }
 
+.w-icon-md {
+  width: 2.625rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
 .max-w-logo-robot {
   max-width: 31.25rem;
 }
@@ -863,6 +891,10 @@ html {
 
 .max-w-paragraf-about {
   max-width: 34.75rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .select-none {
@@ -893,6 +925,10 @@ html {
 
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-11 {
+  grid-template-columns: repeat(11, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1278,6 +1314,11 @@ html {
   padding-right: 4rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1328,6 +1369,14 @@ html {
 
 .text-justify {
   text-align: justify;
+}
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-space-grotesk {
@@ -1400,6 +1449,10 @@ html {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .leading-6 {

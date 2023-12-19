@@ -1,6 +1,9 @@
 :root {
   /* font-size: 80px; */
 }
+body {
+  background: url(../asset/background.png);
+}
 
 /* GALLERY */
 .grid-pic {
