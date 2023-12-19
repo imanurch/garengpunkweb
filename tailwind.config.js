@@ -109,6 +109,12 @@ module.exports = {
           lineHeight: "2rem",
         },
       ],
+      membername: [
+        "1.875rem",
+        {
+          fontWeight: "700",
+        },
+      ],
     },
     borderRadius: {
       DEFAULT: "0.5rem",
