@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./**/*.{html,js}"],
   theme: {
     colors: {
       primarycolor: "#11112B",
@@ -16,16 +16,6 @@ module.exports = {
       "space-grotesk": "Space Grotesk",
     },
     fontSize: {
-      // headline: "4.325rem", //70
-      // title1: "3rem", //48px
-      // title2: "2.375rem", //38
-      // title3: "1.5rem", //24
-      // text1: "1.125rem", //18
-      // text2: "1rem", //16
-      // text3: "0.875rem", //14
-      // btn1: "1.125rem", //18
-      // btn2: "1rem", //16
-      // logoname: "1.125rem", //18
       headline: [
         "4.325rem",
         {
@@ -33,13 +23,6 @@ module.exports = {
           lineHeight: "3.75rem",
         },
       ],
-      // title1: [
-      //   "3rem",
-      //   {
-      //     fontWeight: "600",
-      //     lineHeight: "2.5rem",
-      //   },
-      // ],
       title2: [
         "2.375rem",
         {
@@ -51,37 +34,26 @@ module.exports = {
         "1.5rem",
         {
           fontWeight: "500",
-          // lineHeight: "2.5rem",
         },
       ],
       text1: [
         "1.125rem",
         {
           fontWeight: "400",
-          // lineHeight: "0.938rem",
         },
       ],
       text2: [
         "1rem",
         {
           fontWeight: "400",
-          // lineHeight: "2.5rem",
         },
       ],
       text3: [
         "0.875rem",
         {
           fontWeight: "400",
-          // lineHeight: "2.5rem",
         },
       ],
-      // btn1: [
-      //   "1.125rem",
-      //   {
-      //     fontWeight: "700",
-      //     lineHeight: "2.5rem",
-      //   },
-      // ],
       btn2: [
         "1rem",
         {
@@ -176,9 +148,6 @@ module.exports = {
         ybtn: "1rem",
         xaward: "1.563rem",
         yaward: "2.313rem",
-      },
-      boxShadow: {
-        // "3xl": "4px 8px 18px 0px rgba(41, 51, 92, 0.20)",
       },
     },
   },
