@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./*.{html,js}"],
   theme: {
     colors: {
       primarycolor: "#11112B",
@@ -138,9 +138,16 @@ module.exports = {
       maxWidth: {
         "paragraf-about": "34.75rem", //556
         "logo-robot": "31.25rem", //740
+        "icon-sm2": "1.68rem", //27
+      },
+      minWidth: {
+        "icon-sm2": "1.68rem", //27
       },
       height: {
         footer: "19.625rem", //314
+      },
+      minHeight: {
+        division: "14rem",
       },
       space: {
         navbar: "1.875rem",
